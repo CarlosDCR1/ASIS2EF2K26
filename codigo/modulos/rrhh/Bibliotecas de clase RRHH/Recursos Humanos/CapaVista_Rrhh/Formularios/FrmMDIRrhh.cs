@@ -31,6 +31,7 @@ using CapaVista_EvaluacionDesempeño.Formularios;
 using CapaVista_Liquidacion_Rrhh.Formularios;
 using CapaVista_Nomina.Formularios;
 using CapaVista_Seguridad;
+using CapaVista_Mantenimiento2k26;
 using CapaVista_PermisosVacaciones.Formularios;
 using System;
 using System.Collections.Generic;
@@ -532,6 +533,7 @@ namespace CapaVista_Rrhh.Formularios
             {
 
                 Tuple.Create<string, int, Func<Form>>("Empleados", 4, () => new CapaVista_Seguridad.FrmEmpleadosNavegador()),
+                Tuple.Create<string, int, Func<Form>>("Paciente", 9150, () => new CapaVista_Mantenimiento2k26.Formularios.PacienteNavegador()),
                 Tuple.Create<string, int, Func<Form>>("Departamentos", 9002, () => new FrmDepartamentosNavegador()),
                 Tuple.Create<string, int, Func<Form>>("Tipos de Puesto", 9005, () => new FrmTipoPuestosNavegador()),
                 Tuple.Create<string, int, Func<Form>>("Puestos", 9004, () => new FrmPuestosNavegador()),
