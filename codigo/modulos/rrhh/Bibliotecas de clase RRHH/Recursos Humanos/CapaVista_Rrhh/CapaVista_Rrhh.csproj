@@ -52,6 +52,9 @@
     <Reference Include="CapaVista_Liquidacion_Rrhh">
       <HintPath>..\..\Liquidacion_Empleados_Rrhh\CapaVista_Liquidacion_Rrhh\bin\Debug\CapaVista_Liquidacion_Rrhh.dll</HintPath>
     </Reference>
+    <Reference Include="CapaVista_Mantenimiento2k26">
+      <HintPath>..\..\..\MantenimientoAsis2K26Final\CapaVista_Mantenimiento2k26\bin\Debug\CapaVista_Mantenimiento2k26.dll</HintPath>
+    </Reference>
     <Reference Include="CapaVista_Nomina">
       <HintPath>..\..\NominasEmpleados\CapaVista_Nomina\bin\Debug\CapaVista_Nomina.dll</HintPath>
     </Reference>

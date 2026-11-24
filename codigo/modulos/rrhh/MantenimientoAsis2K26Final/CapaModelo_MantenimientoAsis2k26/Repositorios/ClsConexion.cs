@@ -13,7 +13,7 @@ namespace CapaModelo_MantenimientoAsis2k26.Repositorios
 
         public ClsConexion()
         {
-            _ConnectionString = "Dsn=EmbutidosS.A";
+            _ConnectionString = "Dsn=asis22k26";
         }
 
         protected OdbcConnection SeguridadMetObtenerConexion()
